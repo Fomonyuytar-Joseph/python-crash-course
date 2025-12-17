@@ -50,11 +50,11 @@ class ElectricCar(Car):
     
 
 # my_new_car = Car("toyota", "rav4", 2017)
-my_tesla = ElectricCar('tesla','model s' , 2016)
-print(my_tesla.get_descriptive_name())
-my_tesla.battery.describe_battery()
-my_tesla.fill_gas_tank()
-my_tesla.battery.get_range()
+# my_tesla = ElectricCar('tesla','model s' , 2016)
+# print(my_tesla.get_descriptive_name())
+# my_tesla.battery.describe_battery()
+# my_tesla.fill_gas_tank()
+# my_tesla.battery.get_range()
 # print(my_new_car.get_descriptive_name())
 # my_new_car.read_odometer()
 # my_new_car.update_odometer(34)
