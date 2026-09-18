@@ -1,21 +1,26 @@
-row1 = ["✅", "✅", "✅"]
-row2 = ["✅", "✅", "✅"]
-row3 = ["✅", "✅", "✅"]
+import random
+
+random_float = round(random.random() * 5)
+print(random_float)
+
+# row1 = ["✅", "✅", "✅"]
+# row2 = ["✅", "✅", "✅"]
+# row3 = ["✅", "✅", "✅"]
 
 
-map = [row1, row2, row3]
+# map = [row1, row2, row3]
 
-print(f"{row1}\n{row2}\n{row3}")
+# print(f"{row1}\n{row2}\n{row3}")
 
-choice = input("where do you want to insert ? ")
+# choice = input("where do you want to insert ? ")
 
-column = int(choice[0]) - 1
-row = int(choice[1]) - 1
+# column = int(choice[0]) - 1
+# row = int(choice[1]) - 1
 
-map[row][column] = "🎉"
+# map[row][column] = "🎉"
 
 
-print(map)
+# print(map)
 
 
 
@@ -46,5 +51,4 @@ print(map)
 # print(random_integer)
 
 
-# random_float = random.random() * 5
-# print(random_float)
+
