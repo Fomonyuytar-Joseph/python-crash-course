@@ -14,7 +14,7 @@ def calc(f_num , s_num , operand):
     else:
        return 
 
-first_number = int(input("What's the first number: "))
+first_number = float(input("What's the first number: "))
 finish_calculation = False
 
 def calculator():
