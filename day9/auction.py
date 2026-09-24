@@ -4,6 +4,8 @@ bid_dictionary = {}
 
 
 def add_bid_dictionary(buyer , bid_amount):
+      """takes a name and account and create a dictionary from
+      this values"""
       bid_dictionary[buyer] = bid_amount
 
 
