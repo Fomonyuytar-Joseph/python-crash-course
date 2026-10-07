@@ -1,7 +1,6 @@
 from pathlib import Path
 
-path = Path(
-    '/home/joseph/learning/python-crash-course/python_book/files_and_exceptions/pi_digits.txt')
+path = Path('pi_digits.txt')
 contents = path.read_text()
 
 pi_string = ""
