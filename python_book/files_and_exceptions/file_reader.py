@@ -7,6 +7,6 @@ pi_string = ""
 lines = contents.splitlines()
 
 for line in lines:
-    pi_string+=line.lstrip()
+    pi_string += line.lstrip()
 
 print(pi_string)
