@@ -1,4 +1,4 @@
-from turtle import Screen, Turtle
+from turtle import Turtle
 
 
 STARTING_CONSTANTS = [(0, 0), (-20, 0), (-40, 0)]
