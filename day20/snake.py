@@ -44,7 +44,9 @@ class Snake:
             self.head.setheading(RIGHT)
 
     def add_segment(self, position):
+         
          new_segment = Turtle("square")
+         new_segment.speed(2)
          new_segment.penup()
          new_segment.color("white")
          new_segment.goto(position)
