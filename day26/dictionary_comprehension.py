@@ -1,16 +1,36 @@
-sentence = "What is the AirSpeed Velocity of an Unladen Swallow?"
+weather_c = {
+    "Monday":12,
+    "Tuesday":14,
+    "Wednesday":15,
+    "Thursday":14,
+    "Friday":21,
+    "Saturday":22,
+    "Sunday":24
+}
+def convert_fah(temp):
+    calc_temp = (temp * 9/5) + 32
+    return round(calc_temp , 1)
 
-#make an array of words
-word_list = [item for item in sentence.split()]
 
-#make an
-len_word_dict = {word:len(word) for word in word_list}
+weather_f = {day:convert_fah(temp) for (day , temp) in weather_c.items()}
 
+print(weather_f)
 
 
 
 
-print(len_word_dict)
+
+
+# sentence = "What is the AirSpeed Velocity of an Unladen Swallow?"
+
+# #make an array of words
+# word_list =  sentence.split()
+
+# print(word_list)
+# #make an
+# len_word_dict = {word:len(word) for word in word_list}
+
+# print(len_word_dict)
 
 
 
