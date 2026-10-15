@@ -17,3 +17,10 @@ split_user_input = [letter for letter in user_input]
 result = [nato_alpha_dict[letter]  for letter in split_user_input if  nato_alpha_dict[letter] ]
 
 print(result)
+
+
+#simpler version 
+
+final_result = [nato_alpha_dict[letter] for letter in user_input]
+
+print(final_result)
