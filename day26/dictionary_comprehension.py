@@ -1,24 +1,39 @@
-weather_c = {
-    "Monday":12,
-    "Tuesday":14,
-    "Wednesday":15,
-    "Thursday":14,
-    "Friday":21,
-    "Saturday":22,
-    "Sunday":24
+import pandas
+
+
+student_scores = {
+    "student": ["Joseph", "Max", "Christy"],
+    "score": [56, 76, 98]
 }
-def convert_fah(temp):
-    calc_temp = (temp * 9/5) + 32
-    return round(calc_temp , 1)
 
 
-weather_f = {day:convert_fah(temp) for (day , temp) in weather_c.items()}
+student_data_frame = pandas.DataFrame(student_scores)
 
-print(weather_f)
+# print(student_data_frame)
+
+#looping through rows of a  dataframe
+for (index, row) in student_data_frame.iterrows():
+    print(row.score)
 
 
 
+# weather_c = {
+#     "Monday":12,
+#     "Tuesday":14,
+#     "Wednesday":15,
+#     "Thursday":14,
+#     "Friday":21,
+#     "Saturday":22,
+#     "Sunday":24
+# }
+# def convert_fah(temp):
+#     calc_temp = (temp * 9/5) + 32
+#     return round(calc_temp , 1)
 
+
+# weather_f = {day:convert_fah(temp) for (day , temp) in weather_c.items()}
+
+# print(weather_f)
 
 
 # sentence = "What is the AirSpeed Velocity of an Unladen Swallow?"
@@ -33,7 +48,6 @@ print(weather_f)
 # print(len_word_dict)
 
 
-
 # import random
 # names = ["Myrtle","Olivia","Jesus","Amelia","Noah"]
 
@@ -41,7 +55,6 @@ print(weather_f)
 
 
 # passed_students = {student:score for(student , score) in students_scores.items() if score >= 60}
-
 
 
 # print(students_scores)
