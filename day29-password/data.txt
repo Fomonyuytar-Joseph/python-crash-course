@@ -2,3 +2,5 @@ google.com | joseph@email.com | 34234
 amazon | joseph@email.com | erwer
 leetcode | joseph@email.com | werwer
 barieds | joseph@email.com | 344532
+beehive | joseph@email.com | %hQ5aJld8m1cj#
+juggins | joseph@email.com | oOgxR%6vNB8l8&!6j

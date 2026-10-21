@@ -87,6 +87,7 @@ timer_text = canvas.create_text(100, 130, text="00:00", fill="white",
                                 font=(FONT_NAME, 35, "bold"))
 canvas.grid(column=1, row=1)
 
+
 # count_down(5)
 
 
