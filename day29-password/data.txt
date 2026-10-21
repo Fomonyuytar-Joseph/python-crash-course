@@ -1,0 +1,4 @@
+google.com | joseph@email.com | 34234
+amazon | joseph@email.com | erwer
+leetcode | joseph@email.com | werwer
+barieds | joseph@email.com | 344532
