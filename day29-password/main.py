@@ -1,16 +1,50 @@
-fruits = ["Apple" , "Pear" , "Orange"]
+facebook_posts = [
+    {'Likes': 21, 'Comments': 2},
+    {'Likes': 13, 'Comments': 2, 'Shares': 1},
+    {'Likes': 33, 'Comments': 8, 'Shares': 3},
+    {'Comments': 4, 'Shares': 2},
+    {'Comments': 1, 'Shares': 1},
+    {'Likes': 19, 'Comments': 3}
+]
 
-def make_pie(index:int):
-    
+total_likes = 0
+
+for post in facebook_posts:
     try:
-        fruit = fruits[index]
-    except IndexError as error_message:
-        print("Fruit Pie")
-        print(f"You could not print out of index because of {error_message}")
-    else:
-        print(fruit+ " pie")
+        total_likes = total_likes + post['Likes']
+    except KeyError:
+        pass
+        
 
-make_pie(4)
+
+
+print(total_likes)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# fruits = ["Apple" , "Pear" , "Orange"]
+
+# def make_pie(index:int):
+    
+#     try:
+#         fruit = fruits[index]
+#     except IndexError as error_message:
+#         print("Fruit Pie")
+#         print(f"You could not print out of index because of {error_message}")
+#     else:
+#         print(fruit+ " pie")
+
+# make_pie(4)
 
 
 
