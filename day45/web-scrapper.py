@@ -49,16 +49,6 @@ print(article_links[largest_index])
 # print(soup.title)
 
 
-
-
-
-
-
-
-
-
-
-
 # with open("website.html") as file:
 #     contents = file.read()
 
