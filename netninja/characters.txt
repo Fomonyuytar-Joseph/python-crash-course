@@ -2,8 +2,4 @@ Mario
 Luigi
 Peach
 Yoshi
-Bowser
-Toad
-Diddy Kong
-Donkey Kong
-Wario
+Bowser 
